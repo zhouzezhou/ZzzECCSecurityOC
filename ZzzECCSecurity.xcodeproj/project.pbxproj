@@ -14,6 +14,7 @@
 		A022497C2611C8E400CD4E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A022497B2611C8E400CD4E20 /* Assets.xcassets */; };
 		A022497F2611C8E400CD4E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A022497D2611C8E400CD4E20 /* LaunchScreen.storyboard */; };
 		A02249822611C8E400CD4E20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A02249812611C8E400CD4E20 /* main.m */; };
+		A022498A2611C92200CD4E20 /* ZzzECCSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = A02249882611C92200CD4E20 /* ZzzECCSecurity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		A022497E2611C8E400CD4E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A02249802611C8E400CD4E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A02249812611C8E400CD4E20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A02249882611C92200CD4E20 /* ZzzECCSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzzECCSecurity.m; sourceTree = "<group>"; };
+		A02249892611C92200CD4E20 /* ZzzECCSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzzECCSecurity.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				A02249732611C8E200CD4E20 /* SceneDelegate.m */,
 				A02249752611C8E200CD4E20 /* ViewController.h */,
 				A02249762611C8E200CD4E20 /* ViewController.m */,
+				A02249892611C92200CD4E20 /* ZzzECCSecurity.h */,
+				A02249882611C92200CD4E20 /* ZzzECCSecurity.m */,
 				A02249782611C8E200CD4E20 /* Main.storyboard */,
 				A022497B2611C8E400CD4E20 /* Assets.xcassets */,
 				A022497D2611C8E400CD4E20 /* LaunchScreen.storyboard */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A022498A2611C92200CD4E20 /* ZzzECCSecurity.m in Sources */,
 				A02249772611C8E200CD4E20 /* ViewController.m in Sources */,
 				A02249712611C8E200CD4E20 /* AppDelegate.m in Sources */,
 				A02249822611C8E400CD4E20 /* main.m in Sources */,
@@ -292,11 +298,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CB29T9LDGP;
 				INFOPLIST_FILE = ZzzECCSecurity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.allinpay.ZzzECCSecurity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzz.ZzzECCSecurity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,11 +316,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CB29T9LDGP;
 				INFOPLIST_FILE = ZzzECCSecurity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.allinpay.ZzzECCSecurity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzz.ZzzECCSecurity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
